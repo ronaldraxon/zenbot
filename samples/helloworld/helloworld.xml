@@ -1,5 +1,5 @@
 <context>
-    <input pattern="(hi|hello|What's up) *">
+    <input pattern="(hi|hello|What's up|Greetings) *">
         <!-- Greet the user if we know his/her name -->
         <output value="Hello $UserName!" if="full($UserName)"/>
 
